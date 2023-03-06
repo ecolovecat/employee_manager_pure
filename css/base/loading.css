@@ -1,0 +1,25 @@
+@keyframes loading {
+  0% {
+    background-position: -800px 0
+  }
+  100% {
+    background-position: 800px 0
+  }
+}
+
+/* .loading {
+  position: relative;
+}
+
+.loading {
+  height: 24px;
+  width: auto;
+  background-color: #F8F8F8;
+
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: loading;
+  animation-timing-function: linear;
+  background: linear-gradient(to right, #eeeeee 5%, #bbbbbb 25%, #eeeeee 50%);
+} */

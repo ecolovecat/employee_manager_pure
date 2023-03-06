@@ -1,0 +1,126 @@
+.icon-24 {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.icon-16 {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.icon-36 {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.icon-toggle{
+  margin: 0px 16px;
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -424px -86px;
+}
+
+.icon-select {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -844px -31px;
+}
+
+.icon-search {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -992px -355px;
+}
+
+.icon-combobox {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -1125px -356px;
+}
+
+.icon-notification {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -788px -30px;
+}
+
+.icon-refresh {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -1098px -86px;
+}
+
+.icon-dashboard {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -31px -1630px;
+}
+
+.icon-cash {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -202px -146px;
+}
+
+.icon-cashin {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -259px -147px;
+}
+
+.icon-buy {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -147px -258px;
+}
+
+.icon-bill {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -1211px -90px;
+}
+
+.icon-storage  {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -1714px -90px;
+}
+
+.icon-tool {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -676px -30px;
+}
+
+.icon-asset {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -202px -146px;
+}
+
+.icon-tax {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -732px -31px;
+}
+
+.icon-price {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -202px -146px;
+}
+
+.icon-sell {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -1098px -90px;
+}
+
+.icon-down {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -896px -355px;
+}
+
+.icon-danger {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -593px -145px;
+}
+
+.icon-success {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -990px -462px;
+}
+
+.icon-exit {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -1178px -362px;
+}
+
+.icon-question {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -89px -145px;
+}
+
+.icon-exit-36 {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -147px -145px;
+}
+
+.icon-dropbox {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -900px -365px;
+}
+
+.icon-noti {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -832px -462px;
+}
+
+.icon-alert {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -752px -462px;
+}
+
+.icon-success-24 {
+  background: url('../../Resource/img/Sprites.64af8f61.svg') no-repeat -1602px -258px;
+}

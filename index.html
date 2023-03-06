@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Kế toán</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="header">
+      <div class="header-left">
+        <div class="icon-toggle icon-24 center"></div>
+        <div class="logo">
+          <img src="./Resource/img/Logo_Module_TiengViet_White.66947422.svg" alt="" class="img-logo">
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="branch">
+          <div class="icon-select icon-24 menu-icon"></div>
+          <div class="branch-name text">Công ty cổ phần abc</div>
+          <div class="icon-combobox icon-24 menu-icon"></div>
+        </div>
+        <div class="account">
+          <div class="icon-notification icon-24"></div>
+          <div class="profile">
+            <img src="./Resource/img/default-avatar.jpg" alt="" class="img-avata">
+            <div class="profile-name">Trần Phương Duy</div>
+            <div class="icon-combobox icon-24"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="menu">
+      <div>
+        <div class="menu-icon">
+          <div class="icon-dashboard icon-24"></div>
+        </div>
+        <div class="text">Tổng quan</div>
+      </div>
+      <div>
+        <div class="menu-icon">
+          <div class="icon-cash icon-24"></div>
+        </div>
+        <div class="text">Tiền mặt</div>
+      </div>
+      <div>
+        <div class="menu-icon">
+          <div class="icon-cashin icon-24"></div>
+        </div>
+        <div class="text">Tiền gửi</div>
+      </div>
+      <div>
+        <div class="menu-icon">
+          <div class="icon-buy icon-24"></div>
+        </div>
+        <div class="text">Mua hàng</div>
+      </div>
+      <div>
+        <div class="menu-icon">
+          <div class="icon-sell icon-24"></div>
+        </div>
+        <div class="text">Bán hàng</div>
+      </div>
+      <div>
+        <div class="menu-icon">
+          <div class="icon-bill icon-24"></div>
+        </div>
+        <div class="text">Quản lý hóa đơn</div>
+      </div>
+      <div>
+        <div class="menu-icon">
+          <div class="icon-tool icon-24"></div>
+        </div>
+        <div class="text">Công cụ dụng cụ</div>
+      </div>
+      <div>
+        <div class="menu-icon">
+          <div class="icon-asset icon-24"></div>
+        </div>
+        <div class="text">Tài sản cố định</div>
+      </div>
+
+      <div>
+        <div class="menu-icon">
+          <div class="icon-price icon-24"></div>
+        </div>
+        <div class="text">Giá thành</div>
+      </div>
+      <div>
+        <div class="menu-icon">
+          <div class="icon-select icon-24"></div>
+        </div>
+        <div class="text">Tổng hợp</div>
+      </div>
+      <div>
+        <div class="menu-icon">
+          <div class="icon-select icon-24"></div>
+        </div>
+        <div class="text">Ngân sách</div>
+      </div>
+      <div>
+        <div class="menu-icon">
+          <div class="icon-select icon-24"></div>
+        </div>
+        <div class="text">Báo cáo</div>
+      </div>
+      <div>
+        <div class="menu-icon">
+          <div class="icon-select icon-24"></div>
+        </div>
+        <div class="text">Phân tích tài chính</div>
+      </div>
+    </div>
+
+    <div id="content">
+      <div class="page-header">
+        <div class="title">Nhân viên</div>
+        <div class="page-button">
+          <button class="button btn-green" id="btn-add" >Thêm mới nhân viên</button>
+        </div>
+      </div>
+      <div class="page-table">
+        <div class="table-header">
+          <div class="search"><input id="search" type="search" placeholder="Tìm theo tên nhân viên">
+            <div class="icon-search icon-24"></div>
+          </div>
+          <div title="Refresh data" class="icon-refresh icon-24 refresh"></div>
+        </div>
+        <div class="table-content">
+          <table class="table">
+            <tbody>
+              <tr>
+                <th><input class="checkbox-button" type="checkbox" name="" id=""></th>
+                <th>Mã nhân viên</th>
+                <th>Tên nhân viên</th>
+                <th>Giới tính</th>
+                <th>Ngày sinh</th>
+                <th title="Số chứng minh nhân dân">Số CMND</th>
+                <th>Chức danh</th>
+                <th>Tên đơn vị</th>
+                <th>Lương</th>
+                <th>Email</th>
+                <th>Tình trạng hôn nhân</th>
+                <th>Chức năng </th>
+              </tr>
+             
+              
+            </tbody>
+          </table>
+        </div>
+        <div class="table-footer">
+          <div class="table-footer-left">
+            <p class="text">Tổng số: <span class="bold">&nbsp;1033&nbsp;</span> bản ghi</p>
+          </div>
+          <div class="table-footer-right">
+            <div class="combo-box">
+              <div class="combo-box-wrapper">
+                <input type="text" class="combo-box-input" placeholder="Select an option...">
+                <div class="icon-combobox icon-24 combobox-icon"></div>
+              </div>
+              <ul class="combo-box-options" hidden>
+                <li>10 bản ghi trên 1 trang</li>
+                <li>20 bản ghi trên 1 trang</li>
+                <li>50 bản ghi trên 1 trang</li>
+                <li>100 bản ghi trên 1 trang</li>
+              </ul>
+            </div>
+            <div class="pagination">
+              <a href="#">Trước</a>
+              <a href="#">1</a>
+              <a class="active" href="#">2</a>
+              <a href="#">...</a>
+              <a href="#">6</a>
+              <a href="#">Sau</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup" id="deletePopup" hidden>
+    <div class="overlay"></div>
+    <div class="popup-container">
+      <div class="popup-content">
+        <div class="icon-danger icon-24"></div>
+        <p class="message text">Bạn có thực sự muốn xóa nhân viên abc không?</p>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="popup-button">
+        <button class="button btn-whitee">Hủy</button>
+        <button class="button btn-green" id="deleteBtn">Xóa</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="noti-save" hidden>
+    <div class="overlay"></div>
+    <div class="popup-container">
+      <div class="popup-content">
+        <div class="icon-noti icon-36"></div>
+        <p class="message text">Dữ liệu đã bị thay đổi. Bạn có muốn cất không?</p>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="popup-noti-button">
+        <div class="popup-noti-left">
+          <button class="button btn-whitee" id="noti-save-cancle">Hủy</button>
+        </div>
+        <div class="popup-noti-right">
+          <button class="button btn-whitee" id="noti-save-decline">Không</button>
+          <button class="button btn-green" id="noti-save-confirm">Có</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="validate-error" hidden>
+    <div class="overlay2"></div>
+    <div class="popup-container">
+      <div class="popup-content-validate">
+        <div class="icon-alert icon-36"></div>
+        <div>
+          <ul>
+          </ul>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="validate-close-btn">
+        <button class="button btn-green" id="close-validate-popup">Đóng</button>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="toast" id="toast-success" hidden>
+    <div class="toast-container">
+      <div class="toast-right">
+        <div class="icon-success-24 icon-24"></div>
+        <div class="toast-message">
+          <span class="bold green">Thành công!</span> Đã xóa bản ghi.
+        </div>
+      </div>
+
+      <div class="toast-left">
+        <span class="text underline">Hoàn tác</span>
+        <div class="icon-exit exit icon-24"></div>
+      </div>
+      
+    </div>
+  </div>
+
+  <div class="dialog" id="form" hidden>
+    <div class="overlay" id="overlay-dialog"></div>
+    <div class="dialog-container">
+      <div class="dialog-header">
+        <div class="dialog-header-left">
+          <div class="dialog-header-title bold">
+            <p class="info-name bold"></p>
+          </div>
+          
+        </div>
+        <div class="dialog-header-right">
+          <div class="icon-exit-36 exit icon-24"></div>
+        </div>
+      </div>
+      <div class="dialog-content">
+        <div class="dialog-info-up">
+          <div class="dialog-info1">
+            <div class="info-1-1">
+              <div class="input">
+                <label title="Mã nhân viên" for="code">Mã<span class="required"></span></label>
+                <input type="text" id="code" name="code">
+                <span class="error-message"></span>
+              </div>
+              <div class="input">
+                <label for="name">Tên<span class="required"></span></label>
+                <input type="text" id="name" name="name">
+                <span class="error-message"></span>
+              </div>
+            </div>
+            <div class="input input-combobox">
+              <label for="class">Đơn vị<span class="required"></span></label>
+              <input type="text" id="class" name="class">
+              <span class="error-message"></span>
+            </div>
+            <div class="input">
+              <label for="chucdanh">Chức danh</label>
+              <input type="text" id="chucdanh" name="chucdanh">
+              <span class="error-message"></span>
+            </div>
+          </div>
+          <div class="dialog-info2">
+            <div class="info-1-1">
+              <div class="input">
+                <label for="birth">Ngày sinh</label>
+                <input type="date" id="birth-picker" name="birth">
+                <span class="error-message"></span>
+                <!-- <div class="date-picker">
+                  <input type="date" id="picker" name="picker" style="display: none">
+                  <input type="text" id="datepicker" name="datepicker" placeholder="Select Date">
+                  <div class="calendar" style="display: none">
+                  </div>
+                </div> -->
+                
+              </div>
+              <div class="input">
+                <label for="sex">Giới tính</label>
+                <div class="input-radio">
+                  <input type="radio" id="male" name="sex" value="nam">
+                  <label for="male">Nam</label><br>
+                  <input type="radio" id="female" name="sex" value="nu">
+                  <label for="female">Nữ</label><br>
+                  <input type="radio" id="other" name="sex" value="other">
+                  <label for="other">Khác</label>
+                </div>
+              </div>
+            </div>
+            <div class="info-1-1">
+              <div class="input">
+                <label for="cmnd" title="Số chứng minh nhân dân">Số CMND</label>
+                <input type="text" id="cmnd" name="cmnd">
+                <span class="error-message"></span>
+              </div>
+              <div class="input">
+                <label for="day">Ngày cấp</label>
+                <input type="date" id="day" name="day">
+                <span class="error-message"></span>
+              </div>
+            </div>
+            <div class="input">
+              <label for="address">Nơi cấp</label>
+              <input type="text" id="address" name="address">
+              <span class="error-message"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="dialog-info3">
+          <div class="input">
+            <label for="address">Địa chỉ</label>
+            <input type="text" name="address">
+            <span class="error-message"></span>
+          </div>
+          <div class="info-1-3">
+            <div class="input">
+              <label for="phone" title="Điện thoại cố định">ĐT cố định</label>
+              <input type="text" name="phone" id="phone-input">
+              <span class="error-message"></span>
+            </div>
+            <div class="input">
+              <label for="email">Email</label>
+              <input type="text" id="email-input" name="email">
+              <span class="error-message"></span>
+            </div>
+            <div class="input">
+              <label for="address">Địa chỉ</label>
+              <input type="text" name="address">
+              <span class="error-message"></span>
+            </div>
+          </div>
+          <div class="info-1-3">
+            <div class="input">
+              <label for="bankaccount">Tài khoản ngân hàng</label>
+              <input type="text" name="bankaccount">
+              <span class="error-message"></span>
+            </div>
+            <div class="input">
+              <label for="namebank">Tên ngân hàng</label>
+              <input type="text" name="namebank">
+              <span class="error-message"></span>
+            </div>
+            <div class="input">
+              <label for="branch">Chi nhánh</label>
+              <input type="text" name="branch">
+              <span class="error-message"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="line2"></div>
+
+      <div class="dialog-button">
+        <div class="btn-left">
+          <button tabindex="0" class="btn-whitee button btn-border" id="btn-cut">
+            Cắt
+          </button>
+          <button tabindex="0" class="btn-green button" id="btn-confirm">
+            Cắt và thêm
+          </button>
+        </div>
+        <div class="btn-right">
+          <button class="button btn-whitee btn-border" id="btn-cancle">Hủy</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="loading" hidden>
+    <div class="overlay2"></div>
+    <div class="loader"></div>
+  </div>
+  <script src="./js/dataTable.js"></script>
+  <script src="./js/validate.js"></script>
+  <script src="./js/addEmployee.js"></script>
+  <script src="./js/menu-context.js"></script>
+  <script src="./js/delete.js"></script>
+  <script src="./js/combobox.js"></script>
+  <script src="./js/loading.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

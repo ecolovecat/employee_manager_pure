@@ -1,0 +1,31 @@
+#menu {
+  background-color:#393a3d;
+  padding-top: 14px;
+}
+
+#menu > div {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  padding: 0px 12px;
+  cursor: pointer;
+}
+
+#menu > div {
+  padding-bottom: 4px;
+}
+
+#menu > div:hover {
+  background-color: #58595d;
+}
+
+#menu .text {
+  color: #fff;
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-right: 12px;
+}

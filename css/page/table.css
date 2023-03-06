@@ -1,0 +1,130 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  table-layout: auto;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.table-function {
+  position: relative;
+}
+
+th,
+td {
+  max-height: 48px;
+  min-height: 48px;
+  width: auto;
+  border: 1px solid #E0E0E0;
+  text-align: left;
+  padding: 8px;
+  column-width: auto;
+}
+
+td:not(:has(input[type=checkbox])) {
+  /* min-width: 130px; */
+}
+
+th:not(:has(input[type=checkbox])) {
+  /* min-width: 200px; */
+}
+
+th:first-child {
+  position: sticky;
+  top: 0;
+  left: 0;
+
+}
+
+th {
+  background-color: #F5F5F5
+}
+
+tr {
+  background-color: #fff;
+  font-size: 14px;
+}
+
+tr:hover {
+  background-color: #F8F8F8;
+}
+
+/* .fixed {
+  position: absolute;
+  *position: relative; 
+  right: 0;
+  width: 100px;
+} */
+
+.table-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-footer>.pagination {
+  height: 36px;
+  flex-shrink: 1;
+  flex-grow: 0;
+}
+
+.table-content {
+  overflow: scroll;
+  max-height: calc(100vh - 284px);
+  position: relative;
+}
+
+.table-content table th {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.table-content table th:last-child {
+  position: sticky;
+  z-index: 2;
+  right: 0px;
+}
+
+.table-content table td:last-child {
+  /* min-width: 100px !important; */
+  border-top: none;
+  position: sticky;
+  right: 0px;
+  background-color: #fff;
+}
+/* .table-content table th:nth-child(1) {
+  position: sticky;
+  z-index: 2;
+  right: 0px;
+}
+
+.table-content table td:nth-child(1) {
+  border-top: none;
+  position: sticky;
+  right: 0px;
+  background-color: #fff;
+} */
+
+/* /* .table-content table td:nth-child(1) {
+  position: sticky;
+  left: 0;
+  
+}
+.table-content table th:nth-child(1) {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+} */
+
+.table-content table td:nth-child(2) {
+  position: sticky;
+  left: 56px;
+  border-right: 1px dotted #BDBDBD;
+}
+.table-content table th:nth-child(2) {
+  position: sticky;
+  left: 56px;
+  border-right: 1px dotted #BDBDBD;
+} */

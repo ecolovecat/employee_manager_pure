@@ -1,0 +1,44 @@
+.button {
+  height: 32px;
+  padding: 0 16px;
+  border-radius: 4px;
+  min-width: 80px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-green {
+  color: #fff;
+  background-color: #019160;
+}
+
+.btn-green:hover{
+  background-color: #2fbe8e;
+}
+
+.btn-green:active{
+  background-color: #01b075;
+}
+
+.btn-whitee {
+  background-color: #FFFFFF;
+  color: #1F1F1F;
+  border: 1px solid #E6E6E6;
+}
+
+.btn-whitee:hover {
+  background-color: #f6f6f6;
+}
+
+.btn-whitee:active {
+  background-color: #ebebeb;
+}
+
+.btn-border {
+  border: 1px solid rgb(189, 174, 174);
+}
+
+button:focus {
+  border: 1px solid black;
+}

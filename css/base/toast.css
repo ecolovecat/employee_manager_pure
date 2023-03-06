@@ -1,0 +1,44 @@
+.toast-container {
+  position: fixed;
+  z-index: 3;
+  background-color: #fff;
+  top: 86%;
+  right: 1%;
+}
+
+.toast-container {
+  display: flex;
+  min-width: 450px;
+  max-width: 650px;
+  font-size: 14px;
+  height: 56px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 4px;
+  gap: 24px;
+  box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.078);
+}
+
+.message-title {
+  font-family: MISA Font Bold;
+}
+
+.icon-exit {
+  position: relative;
+  top: 6px;
+  right: -12px;
+}
+
+.toast-right  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.toast-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,32 @@
+.context-menu {
+  width: 150px;
+  border: 1px solid #E0E0E0;
+  position: fixed;
+  z-index: 100;
+  /* top: 32px;
+  right: 30px; */
+  background-color: #FFFFFF;
+  z-index: 2;
+  overflow: visible;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.059);
+  border-radius: 4px;
+}
+
+.context-menu-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.context-menu-action {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  padding: 0px 8px;
+}
+
+.context-menu-action:hover {
+  background-color: #e8e9ec;
+  cursor: pointer;
+  color: #54cc63;
+}

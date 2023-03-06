@@ -1,0 +1,29 @@
+.date-picker {
+  position: relative;
+}
+
+#datepicker {
+  border: none;
+  background-color: #f7f7f7;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calendar {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+#datepicker:focus + .calendar,
+#datepicker:active + .calendar {
+  display: block;
+}
+
+/* Calendar styles go here */

@@ -1,0 +1,9 @@
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-family: MISA Font Bold;
+  font-size: 20px;
+}
